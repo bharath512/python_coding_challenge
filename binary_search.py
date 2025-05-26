@@ -8,7 +8,7 @@ while low<=high:
     if list[mid] < num:
         low = mid + 1
     elif list[mid] > num:
-        high= mid -1
+        high= mid - 1
     else:
         print(f"Number {list[mid]} is present")
         break
